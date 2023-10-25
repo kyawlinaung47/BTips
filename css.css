@@ -1,0 +1,176 @@
+
+html,body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color:#515151;
+}
+.body 
+    
+
+
+
+
+.head {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+    color: #DB1F23;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 8%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+.headText{
+    font-size: 20px;
+}
+
+.motto {
+    position: fixed;
+    margin-top: 95px;
+}
+.container {
+    background-color: rgb(34, 34, 34);
+    margin-left: 40px;
+    margin-top: 20%;
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.imagelogo {
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.image {
+    width: 250px;
+    height: 60px;
+    
+        
+}
+.image {
+    transform: scale(1.12,1.12); 
+    animation:clip2 5s linear infinite;
+    
+        --color: #DB1F23; /* the border color */
+        --border: 5px;   /* the border thickness*/
+        --offset: 5px;   /* control the offset*/
+        --gap: 5px;       /* the gap on hover */
+        
+        --_c: var(--color) var(--border), #0000 0 calc(100% - var(--border)),var(--color) 0;
+        --_o: calc(3*var(--offset));
+        padding: 
+          calc(var(--gap) + var(--border))
+          calc(var(--gap) + var(--border) + var(--offset))
+          calc(var(--gap) + var(--border) + var(--offset))
+          calc(var(--gap) + var(--border));
+          background: 
+          linear-gradient(      var(--_c)) var(--_o) var(--_o), 
+          linear-gradient(90deg,var(--_c)) var(--_o) var(--_o);
+        background-size: calc(100% - var(--_o)) calc(100% - var(--_o));
+        background-repeat: no-repeat;
+        filter: grayscale(.4);
+        transition: .5s;
+        cursor: pointer;
+      }
+      img:hover {
+        background-position: 0px 0px;
+        
+        background-size: calc(100% - var(--offset)) calc(100% - var(--offset));
+        filter: grayscale(0);
+      }
+
+      
+      
+     
+
+@media (max-width: 600px) {
+    .head {
+        font-size: 80%;
+        width: 100%;
+    }
+    .mottoImage{
+        width: 40px;
+        height: 500px;
+        transition: all 1s ease-in-out;
+        
+    }
+}
+
+.menuContainer{
+cursor: pointer;
+align-items: center;
+margin-right: 20px;
+margin-top: 16px;
+}
+.menu{
+    width: 30px;
+    height: 3px;
+    background-color: antiquewhite;
+    margin: 5px;
+}
+.line1, .line2, .line3 {
+    transition: all 0.5s ease;
+}
+
+.line2Change {
+    opacity: 0;
+}
+
+.line1Change {
+    transform: rotate(45deg);
+    translate:  4px 8px;
+}
+
+.line3Change {
+    transform: rotate(-45deg);
+    translate:  4px -8px;
+}
+.containerMenu{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-left: 10%;
+}
+.menuChange{
+    display: flex;
+    flex-direction: column;
+    margin: 13px;
+    background-color: beige;
+}
+.menuText{
+    font-size: 20px;
+    margin: 6px;
+    margin: 0% 3% 3%;
+    cursor: pointer;
+    background-color: #515151;
+    padding: 3px;
+    color: azure;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    padding: 5px 5px;
+    
+}
+.menu1{
+    cursor: pointer;
+}
+.menuText:hover{
+    opacity: 0.7;
+    font-size: 25px;
+}
+.chooseMenu{
+    position: fixed;
+    left: 20%;
+    top: 2%;
+    width: 70%;
+}
+.web{
+    margin: 3%;
+}
