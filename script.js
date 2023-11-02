@@ -45,12 +45,34 @@ menuContainer.addEventListener("click", () => {
     menuContainer.classList.add("isOpened");
     chooseMenu.innerHTML=`<div class="menuChange">
     <div class="web menuText">FootBall</div>
-    <div class="menu3 menuText">Other</div>
+    <div class="basketBall menuText">Basketball</div>
     <div class="oneXBet menuText">1xBet</div>
     </div>`
 const webTag= document.querySelector(".web");
 const oneXBetTag = document.querySelector(".oneXBet");
+const basketBallTag = document.querySelector(".basketBall");
 
+basketBallTag.addEventListener("click",()=>{
+    chooseMenu.innerHTML="";
+    containerTag.innerHTML="";
+    containerTag.innerHTML=`<div class="imagelogo">
+    <a href="https://www.sportytrader.com/en/betting-tips/basketball/today/" ><img src="Screenshot (15).png"  class="image" /> </a> 
+    </div>
+    <div class="imagelogo">
+    <a href="https://m.forebet.com/en/basketball/predictions-today" ><img src="Screenshot (9).png"  class="image" /> </a> 
+    </div>
+    <div class="imagelogo">
+    <a href="https://www.feedinco.com/basketball-predictions" ><img src="Screenshot (18).png"  class="image" /> </a> 
+    </div>
+    `;
+line1Tag.classList.remove("line1Change");
+line2Tag.classList.remove("line2Change");
+line3Tag.classList.remove("line3Change");
+menuContainer.classList.remove("isOpened");
+    chooseText.innerHTML="";
+    chooseText.innerHTML=`<h1 class="headtext">Basketball Links </h1>`;
+    containerTag.style.height = "900px"
+})
 
 webTag.addEventListener("click",()=>{
     chooseMenu.innerHTML="";
