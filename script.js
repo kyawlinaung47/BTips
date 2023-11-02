@@ -2,8 +2,13 @@ const mottoImage = document.getElementsByClassName("mottoImage")[0];
 const menuContainer = document.querySelector(".menuContainer");
 const containerTag = document.querySelector(".container");
 const headTextTag = document.querySelector(".headText");
+const headTag = document.getElementsByClassName("head")[0];
+window.addEventListener("load",()=>{
+    containerTag.style.marginTop  = `${headTag.offsetHeight + 15 }px`;
+})
 
-let num=0;
+
+/*let num=0;
 setInterval(() => {
     num +=1;
     if(num < 3){
@@ -15,7 +20,7 @@ setInterval(() => {
         num=0;
     }
     
-},1000);
+},1000);*/
 
 const line1Tag = document.querySelector(".line1");
 const line2Tag = document.querySelector(".line2");
