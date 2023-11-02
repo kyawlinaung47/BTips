@@ -101,7 +101,7 @@ line1Tag.classList.remove("line1Change");
     line2Tag.classList.remove("line2Change");
     line3Tag.classList.remove("line3Change");
     menuContainer.classList.remove("isOpened");
-        chooseText.innerHTML=`<h1 class="headtext"> Website  links... </h1>`;
+        chooseText.innerHTML=`<h1 class="headtext"> Football links... </h1>`;
         containerTag.style.height = "1500px"
 })
 oneXBetTag.addEventListener("click",()=>{
