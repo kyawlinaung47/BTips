@@ -176,3 +176,27 @@ margin-top: 16px;
 .web{
     margin: 3%;
 }
+.waitText{
+    position: fixed;
+    opacity: .8;
+    bottom: -70px;
+    background-color: #515151;
+    color: aliceblue;
+    font-size: 50px;
+    z-index: 1;
+    transition: all 0.5s ease-in;
+    padding: 5px 10px;
+}
+
+.eSportDiv{
+    position: fixed;
+    display: none;
+    top: 20%;
+    left: 50%;
+    z-index: 1;
+    width: 50%;
+    background-color: beige;
+}
+.csgo{
+    margin-top: 3%;
+}
