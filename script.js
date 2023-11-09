@@ -7,7 +7,29 @@ const imageTag = document.getElementsByClassName("imagelogo");
 const waitTextTag = document.querySelector(".waitText");
 const eSportDiv = document.querySelector(".eSportDiv");
 
-/*window.addEventListener("load",() =>{
+const menu = () =>{
+    chooseMenu.innerHTML=`<div class="menuChange">
+<div class="web menuText">FootBall</div>
+<div class="basketBall menuText">Basketball</div>
+<div class="eSport menuText">Esport</div>
+<div class="oneXBet menuText">1xBet</div>
+</div>`
+const webTag= document.querySelector(".web");
+const oneXBetTag = document.querySelector(".oneXBet");
+const basketBallTag = document.querySelector(".basketBall");
+const eSportTag = document.querySelector(".eSport");
+
+eSportTag.addEventListener("click",esport)
+
+
+basketBallTag.addEventListener("click",basketBall)
+
+webTag.addEventListener("click",web);
+
+oneXBetTag.addEventListener("click",oneXBet);
+}
+
+window.addEventListener("load",() =>{
     const getNum = localStorage.getItem("accepted");
     if (getNum== 1){
         web();
@@ -25,10 +47,10 @@ const eSportDiv = document.querySelector(".eSportDiv");
     if (getNum == 20){
         oneXBet();
     }
-})*/
+})
 
 const oneXBet = ()=>{
-    //localStorage.setItem("accepted","20")
+    localStorage.setItem("accepted","20")
     eSportDiv.innerHTML="";
     chooseMenu.innerHTML="";
     containerTag.innerHTML="";
@@ -50,7 +72,7 @@ menuContainer.classList.remove("isOpened");
 }
 
 const web = ()=>{
-    //localStorage.setItem("accepted","1");
+    localStorage.setItem("accepted","1");
     eSportDiv.innerHTML="";
     chooseMenu.innerHTML="";
     containerTag.innerHTML="";
@@ -106,7 +128,7 @@ line1Tag.classList.remove("line1Change");
 }
 
 const basketBall = ()=>{
-    //localStorage.setItem("accepted","2");
+    localStorage.setItem("accepted","2");
     eSportDiv.innerHTML="";
     chooseMenu.innerHTML="";
     containerTag.innerHTML="";
@@ -130,7 +152,7 @@ menuContainer.classList.remove("isOpened");
 }
 
 const esport = ()=>{
-    //localStorage.setItem("accepted","3");
+    localStorage.setItem("accepted","3");
     eSportDiv.style.display = "block";
     eSportDiv.innerHTML=`<div>
     <div class="csgo menuText">Csgo</div>
@@ -150,7 +172,7 @@ const esport = ()=>{
 }
 
 const csgo = ()=>{
-    //localStorage.setItem("accepted","4");
+    localStorage.setItem("accepted","4");
     eSportDiv.innerHTML="";
     chooseMenu.innerHTML="";
     containerTag.innerHTML="";
@@ -232,6 +254,27 @@ menuContainer.addEventListener("click", () => {
     line2Tag.classList.add("line2Change");
     line3Tag.classList.add("line3Change");
     menuContainer.classList.add("isOpened");
+    const menu = () =>{
+        chooseMenu.innerHTML=`<div class="menuChange">
+    <div class="web menuText">FootBall</div>
+    <div class="basketBall menuText">Basketball</div>
+    <div class="eSport menuText">Esport</div>
+    <div class="oneXBet menuText">1xBet</div>
+    </div>`
+const webTag= document.querySelector(".web");
+const oneXBetTag = document.querySelector(".oneXBet");
+const basketBallTag = document.querySelector(".basketBall");
+const eSportTag = document.querySelector(".eSport");
+
+eSportTag.addEventListener("click",esport)
+
+
+basketBallTag.addEventListener("click",basketBall )
+
+webTag.addEventListener("click",web);
+
+oneXBetTag.addEventListener("click",oneXBet);
+    }
     menu();
 
 
@@ -242,24 +285,4 @@ menuContainer.addEventListener("click", () => {
 
 
 
-        const menu = () =>{
-            chooseMenu.innerHTML=`<div class="menuChange">
-        <div class="web menuText">FootBall</div>
-        <div class="basketBall menuText">Basketball</div>
-        <div class="eSport menuText">Esport</div>
-        <div class="oneXBet menuText">1xBet</div>
-        </div>`
-    const webTag= document.querySelector(".web");
-    const oneXBetTag = document.querySelector(".oneXBet");
-    const basketBallTag = document.querySelector(".basketBall");
-    const eSportTag = document.querySelector(".eSport");
-    
-    eSportTag.addEventListener("click",esport)
-    
-    
-    basketBallTag.addEventListener("click",basketBall)
-    
-    webTag.addEventListener("click",web);
-    
-    oneXBetTag.addEventListener("click",oneXBet);
-        }
+        
