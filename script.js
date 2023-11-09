@@ -272,7 +272,7 @@ eSportTag.addEventListener("click",esport)
 
 
 basketBallTag.addEventListener("click", () => {
-    localStorage.setItem("accepted","2");
+    
     eSportDiv.innerHTML="";
     chooseMenu.innerHTML="";
     containerTag.innerHTML="";
@@ -293,6 +293,7 @@ menuContainer.classList.remove("isOpened");
     chooseText.innerHTML="";
     chooseText.innerHTML=`<h1 class="headtext">Basketball Links </h1>`;
     containerTag.style.height = "900px"
+    localStorage.setItem("accepted","2");
 })
 
 webTag.addEventListener("click",web);
