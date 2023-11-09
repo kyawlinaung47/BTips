@@ -33,26 +33,20 @@ window.addEventListener("load",() =>{
     const getNum = localStorage.getItem("accepted");
     if (getNum== 1){
         web();
-    }
-    else if (getNum == 2){
+    }else if (getNum == 2){
         basketBall();
-    }
-    else if (getNum == 3){
+    }else if (getNum == 3){
         esport()
         menu();
-    }
-    else if(getNum == 4){
+    }else if(getNum == 4){
         csgo();
-    }
-    else if(getNum == 20){
+    }else if(getNum == 20){
         oneXBet();
-    }else{
-        web();
     }
 })
 
 const oneXBet = ()=>{
-    //localStorage.setItem("accepted","20")
+    localStorage.setItem("accepted","20")
     eSportDiv.innerHTML="";
     chooseMenu.innerHTML="";
     containerTag.innerHTML="";
@@ -74,7 +68,7 @@ menuContainer.classList.remove("isOpened");
 }
 
 const web = ()=>{
-    //localStorage.setItem("accepted","1");
+    localStorage.setItem("accepted","1");
     eSportDiv.innerHTML="";
     chooseMenu.innerHTML="";
     containerTag.innerHTML="";
@@ -130,7 +124,7 @@ line1Tag.classList.remove("line1Change");
 }
 
 const basketBall = ()=>{
-    //localStorage.setItem("accepted","2");
+    localStorage.setItem("accepted","2");
     eSportDiv.innerHTML="";
     chooseMenu.innerHTML="";
     containerTag.innerHTML="";
@@ -154,7 +148,7 @@ menuContainer.classList.remove("isOpened");
 }
 
 const esport = ()=>{
-    //localStorage.setItem("accepted","3");
+    localStorage.setItem("accepted","3");
     eSportDiv.style.display = "block";
     eSportDiv.innerHTML=`<div>
     <div class="csgo menuText">Csgo</div>
@@ -271,29 +265,7 @@ const eSportTag = document.querySelector(".eSport");
 eSportTag.addEventListener("click",esport)
 
 
-basketBallTag.addEventListener("click", () => {
-    
-    eSportDiv.innerHTML="";
-    chooseMenu.innerHTML="";
-    containerTag.innerHTML="";
-    containerTag.innerHTML=`<div class="imagelogo">
-    <a href="https://www.sportytrader.com/en/betting-tips/basketball/today/"  ><img src="Screenshot (15).png"  class="image" /> </a> 
-    </div>
-    <div class="imagelogo">
-    <a href="https://m.forebet.com/en/basketball/predictions-today"  ><img src="Screenshot (9).png"  class="image" /> </a> 
-    </div>
-    <div class="imagelogo">
-    <a href="https://www.feedinco.com/basketball-predictions"  ><img src="Screenshot (18).png"  class="image" /> </a> 
-    </div>
-    `;
-line1Tag.classList.remove("line1Change");
-line2Tag.classList.remove("line2Change");
-line3Tag.classList.remove("line3Change");
-menuContainer.classList.remove("isOpened");
-    chooseText.innerHTML="";
-    chooseText.innerHTML=`<h1 class="headtext">Basketball Links </h1>`;
-    containerTag.style.height = "900px"
-})
+basketBallTag.addEventListener("click", basketBall)
 
 webTag.addEventListener("click",web);
 
