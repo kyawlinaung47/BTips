@@ -46,6 +46,8 @@ window.addEventListener("load",() =>{
     }
     else if(getNum == 20){
         oneXBet();
+    }else{
+        web();
     }
 })
 
