@@ -44,7 +44,7 @@ window.addEventListener("load",() =>{
     else if(getNum == 4){
         csgo();
     }
-    else(getNum == 20){
+    else if(getNum == 20){
         oneXBet();
     }
 })
