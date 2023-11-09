@@ -34,17 +34,17 @@ window.addEventListener("load",() =>{
     if (getNum== 1){
         web();
     }
-    if (getNum == 2){
+    else if (getNum == 2){
         basketBall();
     }
-    if (getNum == 3){
+    else if (getNum == 3){
         esport()
         menu();
     }
-    if (getNum == 4){
+    else if(getNum == 4){
         csgo();
     }
-    if (getNum == 20){
+    else(getNum == 20){
         oneXBet();
     }
 })
