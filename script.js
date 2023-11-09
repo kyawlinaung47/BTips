@@ -293,7 +293,6 @@ menuContainer.classList.remove("isOpened");
     chooseText.innerHTML="";
     chooseText.innerHTML=`<h1 class="headtext">Basketball Links </h1>`;
     containerTag.style.height = "900px"
-    localStorage.setItem("accepted","2");
 })
 
 webTag.addEventListener("click",web);
