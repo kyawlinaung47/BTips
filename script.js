@@ -174,7 +174,7 @@ const esport = ()=>{
 }
 
 const csgo = ()=>{
-    //localStorage.setItem("accepted","4");
+    localStorage.setItem("accepted","4");
     eSportDiv.innerHTML="";
     chooseMenu.innerHTML="";
     containerTag.innerHTML="";
