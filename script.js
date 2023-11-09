@@ -29,7 +29,7 @@ webTag.addEventListener("click",web);
 oneXBetTag.addEventListener("click",oneXBet);
 }
 
-/*window.addEventListener("load",() =>{
+window.addEventListener("load",() =>{
     const getNum = localStorage.getItem("accepted");
     if (getNum== 1){
         web();
@@ -49,7 +49,7 @@ oneXBetTag.addEventListener("click",oneXBet);
     }else{
         web();
     }
-})*/
+})
 
 const oneXBet = ()=>{
     //localStorage.setItem("accepted","20")
