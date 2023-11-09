@@ -50,7 +50,7 @@ window.addEventListener("load",() =>{
 })
 
 const oneXBet = ()=>{
-    localStorage.setItem("accepted","20")
+    //localStorage.setItem("accepted","20")
     eSportDiv.innerHTML="";
     chooseMenu.innerHTML="";
     containerTag.innerHTML="";
@@ -72,7 +72,7 @@ menuContainer.classList.remove("isOpened");
 }
 
 const web = ()=>{
-    localStorage.setItem("accepted","1");
+    //localStorage.setItem("accepted","1");
     eSportDiv.innerHTML="";
     chooseMenu.innerHTML="";
     containerTag.innerHTML="";
@@ -128,7 +128,7 @@ line1Tag.classList.remove("line1Change");
 }
 
 const basketBall = ()=>{
-    localStorage.setItem("accepted","2");
+    //localStorage.setItem("accepted","2");
     eSportDiv.innerHTML="";
     chooseMenu.innerHTML="";
     containerTag.innerHTML="";
