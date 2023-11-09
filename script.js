@@ -29,7 +29,7 @@ webTag.addEventListener("click",web);
 oneXBetTag.addEventListener("click",oneXBet);
 }
 
-window.addEventListener("load",() =>{
+/*window.addEventListener("load",() =>{
     const getNum = localStorage.getItem("accepted");
     if (getNum== 1){
         web();
@@ -49,10 +49,10 @@ window.addEventListener("load",() =>{
     }else{
         web();
     }
-})
+})*/
 
 const oneXBet = ()=>{
-    localStorage.setItem("accepted","20")
+    //localStorage.setItem("accepted","20")
     eSportDiv.innerHTML="";
     chooseMenu.innerHTML="";
     containerTag.innerHTML="";
@@ -74,7 +74,7 @@ menuContainer.classList.remove("isOpened");
 }
 
 const web = ()=>{
-    localStorage.setItem("accepted","1");
+    //localStorage.setItem("accepted","1");
     eSportDiv.innerHTML="";
     chooseMenu.innerHTML="";
     containerTag.innerHTML="";
@@ -130,7 +130,7 @@ line1Tag.classList.remove("line1Change");
 }
 
 const basketBall = ()=>{
-    localStorage.setItem("accepted","2");
+    //localStorage.setItem("accepted","2");
     eSportDiv.innerHTML="";
     chooseMenu.innerHTML="";
     containerTag.innerHTML="";
@@ -154,7 +154,7 @@ menuContainer.classList.remove("isOpened");
 }
 
 const esport = ()=>{
-    localStorage.setItem("accepted","3");
+    //localStorage.setItem("accepted","3");
     eSportDiv.style.display = "block";
     eSportDiv.innerHTML=`<div>
     <div class="csgo menuText">Csgo</div>
@@ -174,7 +174,7 @@ const esport = ()=>{
 }
 
 const csgo = ()=>{
-    localStorage.setItem("accepted","4");
+    //localStorage.setItem("accepted","4");
     eSportDiv.innerHTML="";
     chooseMenu.innerHTML="";
     containerTag.innerHTML="";
