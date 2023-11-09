@@ -7,7 +7,7 @@ const imageTag = document.getElementsByClassName("imagelogo");
 const waitTextTag = document.querySelector(".waitText");
 const eSportDiv = document.querySelector(".eSportDiv");
 
-window.addEventListener("load",() =>{
+/*window.addEventListener("load",() =>{
     const getNum = localStorage.getItem("accepted");
     if (getNum== 1){
         web();
@@ -25,7 +25,7 @@ window.addEventListener("load",() =>{
     if (getNum == 20){
         oneXBet();
     }
-})
+})*/
 
 const oneXBet = ()=>{
     localStorage.setItem("accepted","20")
