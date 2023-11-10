@@ -323,7 +323,7 @@ for (let i=0; i<imageTag.length; i++){
 
 
 window.addEventListener("load",()=>{
-    containerTag.style.marginTop  = `${headTag.offsetHeight + 5 }px`;
+    containerTag.style.marginTop  = `${headTag.offsetHeight + 2 }px`;
 })
 
 
