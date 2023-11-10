@@ -15,8 +15,9 @@ html,body {
 .head {
     display: flex;
     justify-content: space-around;
-    background-color: rgb(0, 0, 0);
-    color: #DB1F23;
+    background-color: rgb(65, 57, 57);
+    background-image: url(head\ bk.jpg);
+    color: #eb9920;
     align-items: center;
     position: fixed;
     width: 100%;
@@ -35,8 +36,8 @@ html,body {
 }
 .container {
     background-color: rgb(34, 34, 34);
-    
-    height: 1500px;
+    background-image: url(bk.jpg);
+    height: 1800px;
     display: flex;
     flex-direction: column;
     

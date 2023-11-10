@@ -93,7 +93,22 @@ const web = ()=>{
         
         <a href="https://afootballreport.com/" ><img src="Screenshot (13).png" class="image" /></a>
     </div>
-    
+    <div class="imagelogo">
+                
+                <a href="https://www.1960tips.com/" ><img src="Screenshot (19).png" class="image"/></a>
+            </div>
+
+            <div class="imagelogo">
+                
+                <a href="https://passionpredict.com/banker-of-the-day" ><img src="Screenshot (20).png" class="image"/></a>
+            </div>
+
+            
+
+            <div class="imagelogo">
+                
+                    <a href="https://100predict.com/" ><img src="Screenshot (21).png" class="image"/></a>
+                </div>
 
     <div class="imagelogo">
         
@@ -126,7 +141,7 @@ line1Tag.classList.remove("line1Change");
     menuContainer.classList.remove("isOpened");
         chooseText.innerHTML="";
         chooseText.innerHTML=`<h1 class="headtext"> Football links... </h1>`;
-        containerTag.style.height = "1500px"
+        containerTag.style.height = "1800px"
         waitText();
 }
 
@@ -308,7 +323,7 @@ for (let i=0; i<imageTag.length; i++){
 
 
 window.addEventListener("load",()=>{
-    containerTag.style.marginTop  = `${headTag.offsetHeight + 15 }px`;
+    containerTag.style.marginTop  = `${headTag.offsetHeight + 5 }px`;
 })
 
 
