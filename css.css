@@ -55,9 +55,10 @@ html,body {
         
 }
 .image {
+    border-radius: 7px;
     transform: scale(1.12,1.12); 
     animation:clip2 5s linear infinite;
-    
+        border-radius: 7px;
         --color: #DB1F23; /* the border color */
         --border: 5px;   /* the border thickness*/
         --offset: 5px;   /* control the offset*/
@@ -81,7 +82,7 @@ html,body {
       }
       img:hover {
         background-position: 0px 0px;
-        
+        border-radius: 7px;
         background-size: calc(100% - var(--offset)) calc(100% - var(--offset));
         filter: grayscale(0);
       }
@@ -186,6 +187,7 @@ margin-top: 16px;
     z-index: 1;
     transition: all 0.5s ease-in;
     padding: 5px 10px;
+    border-radius: 7px;
 }
 
 .eSportDiv{

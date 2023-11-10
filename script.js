@@ -42,6 +42,12 @@ window.addEventListener("load",() =>{
         csgo();
     }else if(getNum == 20){
         oneXBet();
+    }else if(getNum == 5){
+        dota2();
+    }else if(getNum == 6){
+        fifa();
+    }else if (getNum == 7){
+        lol();
     }
 })
 
@@ -64,7 +70,7 @@ menuContainer.classList.remove("isOpened");
     chooseText.innerHTML="";
     chooseText.innerHTML=`<h1 class="headtext"> 1xBet Links </h1>`;
     containerTag.style.height = "900px"
-    
+    waitText();
 }
 
 const web = ()=>{
@@ -121,6 +127,7 @@ line1Tag.classList.remove("line1Change");
         chooseText.innerHTML="";
         chooseText.innerHTML=`<h1 class="headtext"> Football links... </h1>`;
         containerTag.style.height = "1500px"
+        waitText();
 }
 
 const basketBall = ()=>{
@@ -145,6 +152,7 @@ menuContainer.classList.remove("isOpened");
     chooseText.innerHTML="";
     chooseText.innerHTML=`<h1 class="headtext">Basketball Links </h1>`;
     containerTag.style.height = "900px"
+    waitText();
 }
 
 const esport = ()=>{
@@ -164,7 +172,98 @@ const esport = ()=>{
     
     
     csgoTag.addEventListener("click",csgo)
+    dota2Tag.addEventListener("click",dota2)
+    fifaTag.addEventListener("click",fifa)
+    lolTag.addEventListener("click",lol)
 
+}
+
+const lol = ()=>{
+    localStorage.setItem("accepted","7");
+    eSportDiv.innerHTML="";
+    chooseMenu.innerHTML="";
+    containerTag.innerHTML="";
+    containerTag.innerHTML=`<div class="imagelogo">
+    <a href="https://www.feedinco.com/esports/betting-tips/league-of-legends" ><img src="Screenshot (18).png" class="image eimage" /></a>
+</div>
+`;
+
+line1Tag.classList.remove("line1Change");
+line2Tag.classList.remove("line2Change");
+line3Tag.classList.remove("line3Change");
+menuContainer.classList.remove("isOpened");
+    chooseText.innerHTML="";
+    chooseText.innerHTML=`<h1 class="headtext"> LOL Links </h1>`;
+    containerTag.style.height = "900px"
+
+    const eimageTag = document.getElementsByClassName("eimage");
+    for (let i=0; i<eimageTag.length; i++){
+        eimageTag[i].addEventListener("click",()=>{
+            
+            setTimeout(()=>{
+                waitTextTag.style.bottom = "0px"
+            },100)
+        })
+    }
+}
+
+
+const fifa = ()=>{
+    localStorage.setItem("accepted","6");
+    eSportDiv.innerHTML="";
+    chooseMenu.innerHTML="";
+    containerTag.innerHTML="";
+    containerTag.innerHTML=`<div class="imagelogo">
+    <a href="https://www.feedinco.com/esports/fifa" ><img src="Screenshot (18).png" class="image eimage" /></a>
+</div>
+`;
+
+line1Tag.classList.remove("line1Change");
+line2Tag.classList.remove("line2Change");
+line3Tag.classList.remove("line3Change");
+menuContainer.classList.remove("isOpened");
+    chooseText.innerHTML="";
+    chooseText.innerHTML=`<h1 class="headtext"> FIFA Links </h1>`;
+    containerTag.style.height = "900px"
+
+    const eimageTag = document.getElementsByClassName("eimage");
+    for (let i=0; i<eimageTag.length; i++){
+        eimageTag[i].addEventListener("click",()=>{
+            
+            setTimeout(()=>{
+                waitTextTag.style.bottom = "0px"
+            },100)
+        })
+    }
+}
+
+const dota2 = ()=>{
+    localStorage.setItem("accepted","5");
+    eSportDiv.innerHTML="";
+    chooseMenu.innerHTML="";
+    containerTag.innerHTML="";
+    containerTag.innerHTML=`<div class="imagelogo">
+    <a href="https://www.feedinco.com/esports/betting-tips/dota-2" ><img src="Screenshot (18).png" class="image eimage" /></a>
+</div>
+`;
+
+line1Tag.classList.remove("line1Change");
+line2Tag.classList.remove("line2Change");
+line3Tag.classList.remove("line3Change");
+menuContainer.classList.remove("isOpened");
+    chooseText.innerHTML="";
+    chooseText.innerHTML=`<h1 class="headtext"> Dota2 Links </h1>`;
+    containerTag.style.height = "900px"
+
+    const eimageTag = document.getElementsByClassName("eimage");
+    for (let i=0; i<eimageTag.length; i++){
+        eimageTag[i].addEventListener("click",()=>{
+            
+            setTimeout(()=>{
+                waitTextTag.style.bottom = "0px"
+            },100)
+        })
+    }
 }
 
 const csgo = ()=>{
@@ -196,7 +295,7 @@ menuContainer.classList.remove("isOpened");
     }
 }
 
-
+const waitText = () =>{
 for (let i=0; i<imageTag.length; i++){
     imageTag[i].addEventListener("click",()=>{
         
@@ -205,7 +304,7 @@ for (let i=0; i<imageTag.length; i++){
         },100)
     })
 }
-
+}
 
 
 window.addEventListener("load",()=>{
