@@ -89,10 +89,28 @@ const web = ()=>{
         
         <a href="https://www.windrawwin.com/predictions/today/" ><img src="Screenshot (10).png" class="image"/></a>
     </div>
+
+    <div class="imagelogo">
+                
+                <a href="https://www.windrawwin.com/accumulator-tips/today/" ><img src="Screenshot (22).jpg" class="image"/></a>
+            </div>
+
     <div class="imagelogo">
         
+        <a href="https://www.sportytrader.com/en/" ><img src="Screenshot (15).png" class="image" /></a>
+    </div>
+
+    
+
+    <div class="imagelogo">
+    <a href="https://www.feedinco.com/esports/betting-tips/dota-2" ><img src="Screenshot (18).png" class="image eimage" /></a>
+    </div>
+
+    <div class="imagelogo">
         <a href="https://afootballreport.com/" ><img src="Screenshot (13).png" class="image" /></a>
     </div>
+
+    
     <div class="imagelogo">
                 
                 <a href="https://www.1960tips.com/" ><img src="Screenshot (19).png" class="image"/></a>
@@ -122,10 +140,7 @@ const web = ()=>{
         
         <a href="https://talkfootball.co.uk/" ><img src="Screenshot (14).png" class="image" /></a>
     </div>
-    <div class="imagelogo">
-        
-        <a href="https://www.sportytrader.com/en/" ><img src="Screenshot (15).png" class="image" /></a>
-    </div>
+    
     
     <div class="imagelogo">
         
@@ -134,7 +149,11 @@ const web = ()=>{
     <div class="imagelogo" >
         
         <a href="https://confirmbets.com/home/index" ><img src="Screenshot (17).png" class="image" /></a>
-    </div>`;
+    </div>
+    
+    
+    
+    `;
 line1Tag.classList.remove("line1Change");
     line2Tag.classList.remove("line2Change");
     line3Tag.classList.remove("line3Change");
@@ -354,7 +373,7 @@ menuContainer.addEventListener("click", () => {
     line2Tag.classList.remove("line2Change");
     line3Tag.classList.remove("line3Change");
     menuContainer.classList.remove("isOpened");
-        chooseText.innerHTML=`<h1 class="headtext"> Website links... </h1>`;
+        //chooseText.innerHTML=`<h1 class="headtext"> Website links... </h1>`;
         chooseMenu.innerHTML="";
         eSportDiv.innerHTML="";
     }else{

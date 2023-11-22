@@ -203,3 +203,9 @@ margin-top: 16px;
 .csgo{
     margin-top: 3%;
 }
+
+.text{
+    text-align: center;
+    align-items: center;
+    color: aliceblue;
+}
