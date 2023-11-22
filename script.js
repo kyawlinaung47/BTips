@@ -361,7 +361,7 @@ setInterval(() => {
     
 },1000);*/
 window.addEventListener("load",()=>{
-    containerTag.style.marginTop  = `${headTag.offsetHeight + 10 }px`;
+    containerTag.style.marginTop  = `${headTag.offsetHeight + 30 }px`;
 })
 
 const line1Tag = document.querySelector(".line1");
