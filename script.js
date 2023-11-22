@@ -344,9 +344,7 @@ for (let i=0; i<imageTag.length; i++){
 }
 
 
-window.addEventListener("load",()=>{
-    containerTag.style.marginTop  = `${headTag.offsetHeight + 1 }px`;
-})
+
 
 
 /*let num=0;
@@ -362,6 +360,9 @@ setInterval(() => {
     }
     
 },1000);*/
+window.addEventListener("load",()=>{
+    containerTag.style.marginTop  = `${headTag.offsetHeight + 1 }px`;
+})
 
 const line1Tag = document.querySelector(".line1");
 const line2Tag = document.querySelector(".line2");
