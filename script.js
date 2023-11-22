@@ -60,7 +60,7 @@ const oneXBet = ()=>{
     <a href="https://refpa.top/L?tag=d_2336907m_1622c_&site=2336907&ad=1622&r=my/registration/" ><img src="acc open .png" class="image" /></a>
 </div>
 <div class="imagelogo">
-    <a href="https://download1xbet.com/" ><img src="apk down.png" class="image"/></a>
+    <a href="https://mm.1x001.com/en/mobile" ><img src="apk down.png" class="image"/></a>
 </div>`;
 
 line1Tag.classList.remove("line1Change");

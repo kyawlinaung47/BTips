@@ -37,7 +37,7 @@ html,body {
 .container {
     background-color: rgb(34, 34, 34);
     background-image: url(bk.jpg);
-    height: 1800px;
+    height: 2000px;
     display: flex;
     flex-direction: column;
     
