@@ -1,3 +1,4 @@
+
 const mottoImage = document.getElementsByClassName("mottoImage")[0];
 const menuContainer = document.querySelector(".menuContainer");
 const containerTag = document.querySelector(".container");
@@ -6,6 +7,7 @@ const headTag = document.getElementsByClassName("head")[0];
 const imageTag = document.getElementsByClassName("imagelogo");
 const waitTextTag = document.querySelector(".waitText");
 const eSportDiv = document.querySelector(".eSportDiv");
+
 
 const menu = () =>{
     chooseMenu.innerHTML=`<div class="menuChange">
@@ -30,6 +32,7 @@ oneXBetTag.addEventListener("click",oneXBet);
 }
 
 window.addEventListener("load",() =>{
+
     const getNum = localStorage.getItem("accepted");
     if (getNum== 1){
         web();
@@ -342,7 +345,7 @@ for (let i=0; i<imageTag.length; i++){
 
 
 window.addEventListener("load",()=>{
-    containerTag.style.marginTop  = `${headTag.offsetHeight + 2 }px`;
+    containerTag.style.marginTop  = `${headTag.offsetHeight + 1 }px`;
 })
 
 
