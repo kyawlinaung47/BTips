@@ -8,6 +8,9 @@ const imageTag = document.getElementsByClassName("imagelogo");
 const waitTextTag = document.querySelector(".waitText");
 const eSportDiv = document.querySelector(".eSportDiv");
 
+window.addEventListener("load",()=>{
+    containerTag.style.marginTop  = `${headTag.offsetHeight + 60 }px`;
+})
 
 const menu = () =>{
     chooseMenu.innerHTML=`<div class="menuChange">
@@ -360,9 +363,7 @@ setInterval(() => {
     }
     
 },1000);*/
-window.addEventListener("load",()=>{
-    containerTag.style.marginTop  = `${headTag.offsetHeight + 30 }px`;
-})
+
 
 const line1Tag = document.querySelector(".line1");
 const line2Tag = document.querySelector(".line2");
