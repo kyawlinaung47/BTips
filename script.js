@@ -113,6 +113,17 @@ const web = ()=>{
     <a href="https://www.feedinco.com/esports/betting-tips/dota-2" ><img src="Screenshot (18).png" class="image eimage" /></a>
     </div>
 
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7165039487001324"
+     crossorigin="anonymous"></script>
+<!-- btips ad 1 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-7165039487001324"
+     data-ad-slot="7088029826"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
     <div class="imagelogo">
         <a href="https://afootballreport.com/" ><img src="Screenshot (13).png" class="image" /></a>
     </div>
@@ -185,6 +196,18 @@ const basketBall = ()=>{
     <div class="imagelogo">
     <a href="https://www.feedinco.com/basketball-predictions"  ><img src="Screenshot (18).png"  class="image" /> </a> 
     </div>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7165039487001324"
+     crossorigin="anonymous"></script>
+<!-- btips ad 1 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-7165039487001324"
+     data-ad-slot="7088029826"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
     `;
 line1Tag.classList.remove("line1Change");
 line2Tag.classList.remove("line2Change");
@@ -227,6 +250,18 @@ const lol = ()=>{
     containerTag.innerHTML=`<div class="imagelogo">
     <a href="https://www.feedinco.com/esports/betting-tips/league-of-legends" ><img src="Screenshot (18).png" class="image eimage" /></a>
 </div>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7165039487001324"
+     crossorigin="anonymous"></script>
+<!-- btips ad 1 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-7165039487001324"
+     data-ad-slot="7088029826"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 `;
 
 line1Tag.classList.remove("line1Change");
@@ -257,6 +292,18 @@ const fifa = ()=>{
     containerTag.innerHTML=`<div class="imagelogo">
     <a href="https://www.feedinco.com/esports/fifa" ><img src="Screenshot (18).png" class="image eimage" /></a>
 </div>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7165039487001324"
+     crossorigin="anonymous"></script>
+<!-- btips ad 1 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-7165039487001324"
+     data-ad-slot="7088029826"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 `;
 
 line1Tag.classList.remove("line1Change");
@@ -286,6 +333,18 @@ const dota2 = ()=>{
     containerTag.innerHTML=`<div class="imagelogo">
     <a href="https://www.feedinco.com/esports/betting-tips/dota-2" ><img src="Screenshot (18).png" class="image eimage" /></a>
 </div>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7165039487001324"
+     crossorigin="anonymous"></script>
+<!-- btips ad 1 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-7165039487001324"
+     data-ad-slot="7088029826"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 `;
 
 line1Tag.classList.remove("line1Change");
@@ -315,6 +374,18 @@ const csgo = ()=>{
     containerTag.innerHTML=`<div class="imagelogo">
     <a href="https://www.feedinco.com/esports/betting-tips/csgo" ><img src="Screenshot (18).png" class="image eimage" /></a>
 </div>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7165039487001324"
+     crossorigin="anonymous"></script>
+<!-- btips ad 1 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-7165039487001324"
+     data-ad-slot="7088029826"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 `;
 
 line1Tag.classList.remove("line1Change");
