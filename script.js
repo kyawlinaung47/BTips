@@ -67,7 +67,20 @@ const oneXBet = ()=>{
 </div>
 <div class="imagelogo">
     <a href="https://mm.1x001.com/en/mobile" ><img src="apk down.png" class="image"/></a>
-</div>`;
+</div>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7165039487001324"
+     crossorigin="anonymous"></script>
+<!-- btips ad 1 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:400px;height:250px"
+     data-ad-client="ca-pub-7165039487001324"
+     data-ad-slot="7088029826"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+`;
 
 line1Tag.classList.remove("line1Change");
 line2Tag.classList.remove("line2Change");
@@ -117,7 +130,7 @@ const web = ()=>{
      crossorigin="anonymous"></script>
 <!-- btips ad 1 -->
 <ins class="adsbygoogle"
-     style="display:inline-block;width:300px;height:250px"
+     style="display:inline-block;width:400px;height:250px"
      data-ad-client="ca-pub-7165039487001324"
      data-ad-slot="7088029826"></ins>
 <script>
@@ -201,7 +214,7 @@ const basketBall = ()=>{
      crossorigin="anonymous"></script>
 <!-- btips ad 1 -->
 <ins class="adsbygoogle"
-     style="display:inline-block;width:300px;height:250px"
+     style="display:inline-block;width:400px;height:250px"
      data-ad-client="ca-pub-7165039487001324"
      data-ad-slot="7088029826"></ins>
 <script>
@@ -255,7 +268,7 @@ const lol = ()=>{
      crossorigin="anonymous"></script>
 <!-- btips ad 1 -->
 <ins class="adsbygoogle"
-     style="display:inline-block;width:300px;height:250px"
+     style="display:inline-block;width:400px;height:250px"
      data-ad-client="ca-pub-7165039487001324"
      data-ad-slot="7088029826"></ins>
 <script>
@@ -297,7 +310,7 @@ const fifa = ()=>{
      crossorigin="anonymous"></script>
 <!-- btips ad 1 -->
 <ins class="adsbygoogle"
-     style="display:inline-block;width:300px;height:250px"
+     style="display:inline-block;width:400px;height:250px"
      data-ad-client="ca-pub-7165039487001324"
      data-ad-slot="7088029826"></ins>
 <script>
@@ -338,7 +351,7 @@ const dota2 = ()=>{
      crossorigin="anonymous"></script>
 <!-- btips ad 1 -->
 <ins class="adsbygoogle"
-     style="display:inline-block;width:300px;height:250px"
+     style="display:inline-block;width:400px;height:250px"
      data-ad-client="ca-pub-7165039487001324"
      data-ad-slot="7088029826"></ins>
 <script>
@@ -379,7 +392,7 @@ const csgo = ()=>{
      crossorigin="anonymous"></script>
 <!-- btips ad 1 -->
 <ins class="adsbygoogle"
-     style="display:inline-block;width:300px;height:250px"
+     style="display:inline-block;width:400px;height:250px"
      data-ad-client="ca-pub-7165039487001324"
      data-ad-slot="7088029826"></ins>
 <script>
