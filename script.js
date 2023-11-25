@@ -101,18 +101,6 @@ const web = ()=>{
                 <a href="https://www.windrawwin.com/accumulator-tips/today/" ><img src="Screenshot (22).jpg" class="image"/></a>
             </div>
 
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7685061167004878"
-            crossorigin="anonymous"></script>
-       <!-- article ad 1 -->
-       <ins class="adsbygoogle"
-            style="display:block"
-            data-ad-client="ca-pub-7685061167004878"
-            data-ad-slot="1228310430"
-            data-ad-format="auto"
-            data-full-width-responsive="true"></ins>
-       <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-       </script>
 
     <div class="imagelogo">
         
