@@ -37,7 +37,7 @@ oneXBetTag.addEventListener("click",oneXBet);
 window.addEventListener("load",() =>{
 
     const getNum = localStorage.getItem("accepted");
-    if (getNum== 1){
+    if (getNum== 100){
         web();
     }else if (getNum == 2){
         basketBall();
