@@ -37,6 +37,13 @@ html,body {
     position: fixed;
     margin-top: 90px;
 }
+
+.mottoImage{
+    width: 40px;
+    height: 500px;
+    
+}
+
 .container {
     
     margin-left: 5%;
