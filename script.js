@@ -1,5 +1,5 @@
 
-/*const mottoImage = document.getElementsByClassName("mottoImage")[0];
+const mottoImage = document.getElementsByClassName("mottoImage")[0];
 const menuContainer = document.querySelector(".menuContainer");
 const containerTag = document.querySelector(".container");
 const headTextTag = document.querySelector(".headText");
