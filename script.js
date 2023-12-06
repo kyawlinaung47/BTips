@@ -18,11 +18,15 @@ const menu = () =>{
 <div class="basketBall menuText">Basketball</div>
 <div class="eSport menuText">Esport</div>
 <div class="oneXBet menuText">1xBet</div>
+<dic class="apk menuText">Our apk download</div>
 </div>`
 const webTag= document.querySelector(".web");
 const oneXBetTag = document.querySelector(".oneXBet");
 const basketBallTag = document.querySelector(".basketBall");
 const eSportTag = document.querySelector(".eSport");
+const apkTag = document.querySelector(".apk");
+
+apkTag.addEventListener("click",apk)
 
 eSportTag.addEventListener("click",esport)
 
@@ -56,6 +60,29 @@ window.addEventListener("load",() =>{
         lol();
     }
 })
+const apk = ()=>{
+    localStorage.setItem("accepted","21")
+    eSportDiv.innerHTML="";
+    chooseMenu.innerHTML="";
+    containerTag.innerHTML="";
+    containerTag.innerHTML=`<div class="imagelogo">
+    <a href="https://download1474.mediafire.com/wdnk28jzjujgzg0JM14cG4emnNsifzQreKGqGPDAiPnBCMWb8Ks56bfogdQepxF_wYwrsumfbRK_0CJvyCMoK4XdzA73CAsElJqVKwf0cQVuX739MEJsuFjVxOi6cgqLEKORyLupoTc7IrhhaO_etHkkCfqjgjOEldIq5zvUDzwdNpc/bkp7e04erqhzudn/app-release.apk" ><img src="apkdownload.jpg" class="image" /></a>
+</div>
+
+
+
+`;
+
+line1Tag.classList.remove("line1Change");
+line2Tag.classList.remove("line2Change");
+line3Tag.classList.remove("line3Change");
+menuContainer.classList.remove("isOpened");
+    chooseText.innerHTML="";
+    chooseText.innerHTML=`<h1 class="headtext"> Apk link </h1>`;
+    //containerTag.style.height = "900px"
+    waitText();
+}
+
 
 const oneXBet = ()=>{
     localStorage.setItem("accepted","20")
@@ -409,20 +436,25 @@ menuContainer.addEventListener("click", () => {
     <div class="basketBall menuText">Basketball</div>
     <div class="eSport menuText">Esport</div>
     <div class="oneXBet menuText">1xBet</div>
+    <dic class="apk menuText">Our apk download</div>
     </div>`
 const webTag= document.querySelector(".web");
 const oneXBetTag = document.querySelector(".oneXBet");
 const basketBallTag = document.querySelector(".basketBall");
 const eSportTag = document.querySelector(".eSport");
+const apkTag = document.querySelector(".apk");
 
 eSportTag.addEventListener("click",esport)
 
+apkTag.addEventListener("click",apk);
 
 basketBallTag.addEventListener("click", basketBall)
 
 webTag.addEventListener("click",web);
 
 oneXBetTag.addEventListener("click",oneXBet);
+
+
     }
     menu();
 
