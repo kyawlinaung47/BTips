@@ -69,16 +69,6 @@ const oneXBet = ()=>{
     <a href="https://mm.1x001.com/en/mobile" ><img src="apk down.png" class="image"/></a>
 </div>
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7165039487001324"
-     crossorigin="anonymous"></script>
-<!-- btips ad 1 -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:400px;height:250px"
-     data-ad-client="ca-pub-7165039487001324"
-     data-ad-slot="7088029826"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
 `;
 
@@ -88,7 +78,7 @@ line3Tag.classList.remove("line3Change");
 menuContainer.classList.remove("isOpened");
     chooseText.innerHTML="";
     chooseText.innerHTML=`<h1 class="headtext"> 1xBet Links </h1>`;
-    containerTag.style.height = "900px"
+    //containerTag.style.height = "900px"
     waitText();
 }
 
@@ -126,16 +116,6 @@ const web = ()=>{
     <a href="https://www.feedinco.com/esports/betting-tips/dota-2" ><img src="Screenshot (18).png" class="image eimage" /></a>
     </div>
 
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7165039487001324"
-     crossorigin="anonymous"></script>
-<!-- btips ad 1 -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:400px;height:250px"
-     data-ad-client="ca-pub-7165039487001324"
-     data-ad-slot="7088029826"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
     <div class="imagelogo">
         <a href="https://afootballreport.com/" ><img src="Screenshot (13).png" class="image" /></a>
@@ -191,7 +171,7 @@ line1Tag.classList.remove("line1Change");
     menuContainer.classList.remove("isOpened");
         chooseText.innerHTML="";
         chooseText.innerHTML=`<h1 class="headtext"> Football links... </h1>`;
-        containerTag.style.height = "1800px"
+        //containerTag.style.height = "1800px"
         waitText();
 }
 
@@ -210,16 +190,6 @@ const basketBall = ()=>{
     <a href="https://www.feedinco.com/basketball-predictions"  ><img src="Screenshot (18).png"  class="image" /> </a> 
     </div>
 
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7165039487001324"
-     crossorigin="anonymous"></script>
-<!-- btips ad 1 -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:400px;height:250px"
-     data-ad-client="ca-pub-7165039487001324"
-     data-ad-slot="7088029826"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
     `;
 line1Tag.classList.remove("line1Change");
@@ -228,7 +198,7 @@ line3Tag.classList.remove("line3Change");
 menuContainer.classList.remove("isOpened");
     chooseText.innerHTML="";
     chooseText.innerHTML=`<h1 class="headtext">Basketball Links </h1>`;
-    containerTag.style.height = "900px"
+    //containerTag.style.height = "900px"
     waitText();
 }
 
@@ -264,16 +234,6 @@ const lol = ()=>{
     <a href="https://www.feedinco.com/esports/betting-tips/league-of-legends" ><img src="Screenshot (18).png" class="image eimage" /></a>
 </div>
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7165039487001324"
-     crossorigin="anonymous"></script>
-<!-- btips ad 1 -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:400px;height:250px"
-     data-ad-client="ca-pub-7165039487001324"
-     data-ad-slot="7088029826"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
 `;
 
@@ -283,7 +243,7 @@ line3Tag.classList.remove("line3Change");
 menuContainer.classList.remove("isOpened");
     chooseText.innerHTML="";
     chooseText.innerHTML=`<h1 class="headtext"> LOL Links </h1>`;
-    containerTag.style.height = "900px"
+    //containerTag.style.height = "900px"
 
     const eimageTag = document.getElementsByClassName("eimage");
     for (let i=0; i<eimageTag.length; i++){
@@ -306,16 +266,6 @@ const fifa = ()=>{
     <a href="https://www.feedinco.com/esports/fifa" ><img src="Screenshot (18).png" class="image eimage" /></a>
 </div>
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7165039487001324"
-     crossorigin="anonymous"></script>
-<!-- btips ad 1 -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:400px;height:250px"
-     data-ad-client="ca-pub-7165039487001324"
-     data-ad-slot="7088029826"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
 `;
 
@@ -325,7 +275,7 @@ line3Tag.classList.remove("line3Change");
 menuContainer.classList.remove("isOpened");
     chooseText.innerHTML="";
     chooseText.innerHTML=`<h1 class="headtext"> FIFA Links </h1>`;
-    containerTag.style.height = "900px"
+    //containerTag.style.height = "900px"
 
     const eimageTag = document.getElementsByClassName("eimage");
     for (let i=0; i<eimageTag.length; i++){
@@ -347,16 +297,6 @@ const dota2 = ()=>{
     <a href="https://www.feedinco.com/esports/betting-tips/dota-2" ><img src="Screenshot (18).png" class="image eimage" /></a>
 </div>
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7165039487001324"
-     crossorigin="anonymous"></script>
-<!-- btips ad 1 -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:400px;height:250px"
-     data-ad-client="ca-pub-7165039487001324"
-     data-ad-slot="7088029826"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
 `;
 
@@ -366,7 +306,7 @@ line3Tag.classList.remove("line3Change");
 menuContainer.classList.remove("isOpened");
     chooseText.innerHTML="";
     chooseText.innerHTML=`<h1 class="headtext"> Dota2 Links </h1>`;
-    containerTag.style.height = "900px"
+    //containerTag.style.height = "900px"
 
     const eimageTag = document.getElementsByClassName("eimage");
     for (let i=0; i<eimageTag.length; i++){
@@ -388,16 +328,6 @@ const csgo = ()=>{
     <a href="https://www.feedinco.com/esports/betting-tips/csgo" ><img src="Screenshot (18).png" class="image eimage" /></a>
 </div>
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7165039487001324"
-     crossorigin="anonymous"></script>
-<!-- btips ad 1 -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:400px;height:250px"
-     data-ad-client="ca-pub-7165039487001324"
-     data-ad-slot="7088029826"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
 `;
 
@@ -407,7 +337,7 @@ line3Tag.classList.remove("line3Change");
 menuContainer.classList.remove("isOpened");
     chooseText.innerHTML="";
     chooseText.innerHTML=`<h1 class="headtext"> Csgo Links </h1>`;
-    containerTag.style.height = "900px"
+    //containerTag.style.height = "900px"
 
     const eimageTag = document.getElementsByClassName("eimage");
     for (let i=0; i<eimageTag.length; i++){
