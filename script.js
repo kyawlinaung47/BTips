@@ -41,7 +41,7 @@ oneXBetTag.addEventListener("click",oneXBet);
 window.addEventListener("load",() =>{
 
     const getNum = localStorage.getItem("accepted");
-    if (getNum== 100){
+    if (getNum== 1){
         web();
     }else if (getNum == 2){
         basketBall();
@@ -79,6 +79,33 @@ line3Tag.classList.remove("line3Change");
 menuContainer.classList.remove("isOpened");
     chooseText.innerHTML="";
     chooseText.innerHTML=`<h1 class="headtext"> Apk link </h1>`;
+    //containerTag.style.height = "900px"
+    waitText();
+}
+
+const predition = ()=>{
+    localStorage.setItem("accepted","23")
+    eSportDiv.innerHTML="";
+    chooseMenu.innerHTML="";
+    containerTag.innerHTML="";
+    containerTag.innerHTML=`<div class="imagelogo">
+                
+    <img src="p1.jpg" class="imageP">
+    </div>
+    <div class="imagelogo">
+    
+    <img src="p2.jpg" class="imageP">
+    </div>
+
+
+`;
+
+line1Tag.classList.remove("line1Change");
+line2Tag.classList.remove("line2Change");
+line3Tag.classList.remove("line3Change");
+menuContainer.classList.remove("isOpened");
+    chooseText.innerHTML="";
+    chooseText.innerHTML=`<h1 class="headtext"> Preditions </h1>`;
     //containerTag.style.height = "900px"
     waitText();
 }
@@ -432,6 +459,7 @@ menuContainer.addEventListener("click", () => {
     menuContainer.classList.add("isOpened");
     const menu = () =>{
         chooseMenu.innerHTML=`<div class="menuChange">
+    <div class="predition menuText">Preditions</div>
     <div class="web menuText">FootBall</div>
     <div class="basketBall menuText">Basketball</div>
     <div class="eSport menuText">Esport</div>
@@ -443,6 +471,9 @@ const oneXBetTag = document.querySelector(".oneXBet");
 const basketBallTag = document.querySelector(".basketBall");
 const eSportTag = document.querySelector(".eSport");
 const apkTag = document.querySelector(".apk");
+const predictionTag = document.querySelector(".predition");
+
+predictionTag.addEventListener("click",predition)
 
 eSportTag.addEventListener("click",esport)
 
