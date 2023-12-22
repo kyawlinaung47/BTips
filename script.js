@@ -7,6 +7,7 @@ const headTag = document.getElementsByClassName("head")[0];
 const imageTag = document.getElementsByClassName("imagelogo");
 const waitTextTag = document.querySelector(".waitText");
 const eSportDiv = document.querySelector(".eSportDiv");
+const mottoTag = document.querySelector(".motto");
 
 window.addEventListener("load",()=>{
     containerTag.style.marginTop  = `${headTag.offsetHeight + 60 }px`;
@@ -58,6 +59,8 @@ window.addEventListener("load",() =>{
         fifa();
     }else if (getNum == 7){
         lol();
+    }else if (getNum == 23){
+        predition();
     }
 })
 const apk = ()=>{
@@ -84,6 +87,7 @@ menuContainer.classList.remove("isOpened");
 }
 
 const predition = ()=>{
+    mottoTag.style.display="none";
     localStorage.setItem("accepted","23")
     eSportDiv.innerHTML="";
     chooseMenu.innerHTML="";
@@ -112,6 +116,7 @@ menuContainer.classList.remove("isOpened");
 
 
 const oneXBet = ()=>{
+    mottoTag.style.display="";
     localStorage.setItem("accepted","20")
     eSportDiv.innerHTML="";
     chooseMenu.innerHTML="";
@@ -137,6 +142,7 @@ menuContainer.classList.remove("isOpened");
 }
 
 const web = ()=>{
+    mottoTag.style.display="";
     localStorage.setItem("accepted","1");
     eSportDiv.innerHTML="";
     chooseMenu.innerHTML="";
@@ -230,6 +236,7 @@ line1Tag.classList.remove("line1Change");
 }
 
 const basketBall = ()=>{
+    mottoTag.style.display="";
     localStorage.setItem("accepted","2");
     eSportDiv.innerHTML="";
     chooseMenu.innerHTML="";
@@ -257,6 +264,7 @@ menuContainer.classList.remove("isOpened");
 }
 
 const esport = ()=>{
+    mottoTag.style.display="";
     localStorage.setItem("accepted","3");
     eSportDiv.style.display = "block";
     eSportDiv.innerHTML=`<div>
@@ -280,6 +288,7 @@ const esport = ()=>{
 }
 
 const lol = ()=>{
+    mottoTag.style.display="";
     localStorage.setItem("accepted","7");
     eSportDiv.innerHTML="";
     chooseMenu.innerHTML="";
@@ -312,6 +321,7 @@ menuContainer.classList.remove("isOpened");
 
 
 const fifa = ()=>{
+    mottoTag.style.display="";
     localStorage.setItem("accepted","6");
     eSportDiv.innerHTML="";
     chooseMenu.innerHTML="";
@@ -343,6 +353,7 @@ menuContainer.classList.remove("isOpened");
 }
 
 const dota2 = ()=>{
+    mottoTag.style.display="";
     localStorage.setItem("accepted","5");
     eSportDiv.innerHTML="";
     chooseMenu.innerHTML="";
@@ -374,6 +385,7 @@ menuContainer.classList.remove("isOpened");
 }
 
 const csgo = ()=>{
+    mottoTag.style.display="";
     localStorage.setItem("accepted","4");
     eSportDiv.innerHTML="";
     chooseMenu.innerHTML="";
