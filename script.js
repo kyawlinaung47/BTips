@@ -100,6 +100,10 @@ const predition = ()=>{
     
     <img src="p2.jpg" class="imageP">
     </div>
+    <div class="imagelogo">
+                
+    <img src="p3.jpg" class="imageP">
+    </div>
 
 
 `;
