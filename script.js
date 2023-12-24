@@ -61,6 +61,8 @@ window.addEventListener("load",() =>{
         lol();
     }else if (getNum == 23){
         predition();
+    }else if (getNum == 24){
+        betStats();
     }
 })
 const apk = ()=>{
@@ -137,6 +139,36 @@ menuContainer.classList.remove("isOpened");
     //containerTag.style.height = "900px"
     waitText();
 }
+
+const betStats = ()=>{
+    mottoTag.style.display="";
+    localStorage.setItem("accepted","24")
+    eSportDiv.innerHTML="";
+    chooseMenu.innerHTML="";
+    containerTag.innerHTML="";
+    containerTag.innerHTML=`<div class="imagelogo">
+    <a href="https://tipsters.asianbookie.com/?_gl=1*1pveu6u*_ga*MTI1NTM4NjE3Mi4xNzAzNDI2Nzky*_ga_HJC59TB35B*MTcwMzQyNjc5Mi4xLjEuMTcwMzQyODI0OC4wLjAuMA..&_ga=2.65596270.1945878119.1703426793-1255386172.1703426792" ><img src="Screenshot (23).png" class="image" /></a>
+</div>
+<div class="imagelogo">
+    <a href="https://www.statschecker.com/" ><img src="Screenshot (24).png" class="image"/></a>
+</div>
+<div class="imagelogo">
+    <a href="https://footystats.org/stats/over25-goals" ><img src="Screenshot (25).png" class="image"/></a>
+</div>
+
+`;
+
+line1Tag.classList.remove("line1Change");
+line2Tag.classList.remove("line2Change");
+line3Tag.classList.remove("line3Change");
+menuContainer.classList.remove("isOpened");
+    chooseText.innerHTML="";
+    chooseText.innerHTML=`<h1 class="headtext"> Bet Stats </h1>`;
+    //containerTag.style.height = "900px"
+    waitText();
+}
+
+
 
 const web = ()=>{
     mottoTag.style.display="";
@@ -469,6 +501,7 @@ menuContainer.addEventListener("click", () => {
     const menu = () =>{
         chooseMenu.innerHTML=`<div class="menuChange">
     <div class="predition menuText">Preditions</div>
+    <div class="betStats menuText">Bet Stats</div>
     <div class="web menuText">FootBall</div>
     <div class="basketBall menuText">Basketball</div>
     <div class="eSport menuText">Esport</div>
@@ -481,6 +514,9 @@ const basketBallTag = document.querySelector(".basketBall");
 const eSportTag = document.querySelector(".eSport");
 const apkTag = document.querySelector(".apk");
 const predictionTag = document.querySelector(".predition");
+const betStatsTag = document.querySelector(".betStats");
+
+betStatsTag.addEventListener("click",betStats);
 
 predictionTag.addEventListener("click",predition)
 
