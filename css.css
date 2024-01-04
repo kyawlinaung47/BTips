@@ -174,7 +174,12 @@ margin-top: 16px;
     flex-direction: column;
     margin: 13px;
     background-color: beige;
+    border-radius: 15px;
 }
+.eSportDiv{
+    border-radius: 15px;
+}
+
 .menuText{
     font-size: 20px;
     margin: 6px;
