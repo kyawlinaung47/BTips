@@ -71,7 +71,7 @@ const apk = ()=>{
     chooseMenu.innerHTML="";
     containerTag.innerHTML="";
     containerTag.innerHTML=`<div class="imagelogo">
-    <a href="https://download1474.mediafire.com/8bat57x0duzgLrtDOvIb-RipxhzZOqq9VBnB2FYLudJS2CNof5FImqD-BrQJGOwz58AVgwoHXe3-k-ziZnFJUpiO6F_tglRLTNDbUV4baxBlmdjDOwZD38fxiR1TDDkiNXCMX7moZ7R4RB9F8vhJ0egWE9tnSFlxUMrCjrVaJJZ_Hg/k7a0aqrdl9xw86t/Btips.apk" ><img src="apkdownload.jpg" class="image" /></a>
+    <a href="https://www.mediafire.com/file/afj5m20xnth8xtr/Btips.apk/file" ><img src="apkdownload.jpg" class="image" /></a>
 </div>
 
 
