@@ -296,7 +296,7 @@ const esport = ()=>{
     mottoTag.style.display="";
     localStorage.setItem("accepted","3");
     eSportDiv.style.display = "block";
-    eSportDiv.innerHTML=`<div>
+    eSportDiv.innerHTML=`<div class="menuChange">
     <div class="csgo menuText">Csgo</div>
     <div class="dota2 menuText">Dota 2</div>
     <div class="fifa menuText">FIFA</div>
