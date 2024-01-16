@@ -63,6 +63,10 @@ window.addEventListener("load",() =>{
         predition();
     }else if (getNum == 24){
         betStats();
+    }else if (getNum == 8){
+        valorant();
+    }else if (getNum == 9){
+        wildrift();
     }
 })
 const apk = ()=>{
@@ -196,7 +200,12 @@ const web = ()=>{
         
         <a href="https://www.sportytrader.com/en/" ><img src="Screenshot (15).png" class="image" /></a>
     </div>
+    <div class="imagelogo">
+        
+        <a href="https://tips.gg/football/predictions/" ><img src="Screenshot (27).png" class="image" /></a>
+    </div>
 
+    
     
 
     <div class="imagelogo">
@@ -298,19 +307,24 @@ const esport = ()=>{
     <div class="csgo menuText">Csgo</div>
     <div class="dota2 menuText">Dota 2</div>
     <div class="fifa menuText">FIFA</div>
+    <div class="valorant menuText">Valorant</div>
     <div class="lol menuText">LOL</div>
+    <div class="wildRift menuText">Wild Rift</div>
     </div>`
 
     const csgoTag = document.querySelector(".csgo");
     const dota2Tag = document.querySelector(".dota2");
     const fifaTag = document.querySelector(".fifa");
     const lolTag = document.querySelector(".lol");
-    
+    const ValorantTag = document.querySelector(".valorant");
+    const wildRiftTag = document.querySelector(".wildRift");
     
     csgoTag.addEventListener("click",csgo)
     dota2Tag.addEventListener("click",dota2)
     fifaTag.addEventListener("click",fifa)
     lolTag.addEventListener("click",lol)
+    ValorantTag.addEventListener("click",valorant)
+    wildRiftTag.addEventListener("click",wildrift)
 
 }
 
@@ -323,7 +337,9 @@ const lol = ()=>{
     containerTag.innerHTML=`<div class="imagelogo">
     <a href="https://www.feedinco.com/esports/betting-tips/league-of-legends" ><img src="Screenshot (18).png" class="image eimage" /></a>
 </div>
-
+<div class="imagelogo">
+    <a href="https://tips.gg/lol/predictions/" ><img src="Screenshot (29).png" class="image eimage" /></a>
+</div>
 
 `;
 
@@ -333,6 +349,72 @@ line3Tag.classList.remove("line3Change");
 menuContainer.classList.remove("isOpened");
     chooseText.innerHTML="";
     chooseText.innerHTML=`<h1 class="headtext"> LOL Links </h1>`;
+    //containerTag.style.height = "900px"
+
+    const eimageTag = document.getElementsByClassName("eimage");
+    for (let i=0; i<eimageTag.length; i++){
+        eimageTag[i].addEventListener("click",()=>{
+            
+            setTimeout(()=>{
+                waitTextTag.style.bottom = "0px"
+            },100)
+        })
+    }
+}
+
+
+const valorant = ()=>{
+    mottoTag.style.display="";
+    localStorage.setItem("accepted","8");
+    eSportDiv.innerHTML="";
+    chooseMenu.innerHTML="";
+    containerTag.innerHTML="";
+    containerTag.innerHTML=`<div class="imagelogo">
+    <a href="https://tips.gg/valorant/predictions/" ><img src="Screenshot (31).png" class="image eimage" /></a>
+</div>
+
+
+`;
+
+line1Tag.classList.remove("line1Change");
+line2Tag.classList.remove("line2Change");
+line3Tag.classList.remove("line3Change");
+menuContainer.classList.remove("isOpened");
+    chooseText.innerHTML="";
+    chooseText.innerHTML=`<h1 class="headtext"> Valorant Links </h1>`;
+    //containerTag.style.height = "900px"
+
+    const eimageTag = document.getElementsByClassName("eimage");
+    for (let i=0; i<eimageTag.length; i++){
+        eimageTag[i].addEventListener("click",()=>{
+            
+            setTimeout(()=>{
+                waitTextTag.style.bottom = "0px"
+            },100)
+        })
+    }
+}
+
+
+const wildrift = ()=>{
+    mottoTag.style.display="";
+    localStorage.setItem("accepted","9");
+    eSportDiv.innerHTML="";
+    chooseMenu.innerHTML="";
+    containerTag.innerHTML="";
+    containerTag.innerHTML=`<div class="imagelogo">
+    <a href="https://tips.gg/wr/predictions/" ><img src="Screenshot (30).png" class="image eimage" /></a>
+</div>
+
+
+`;
+
+line1Tag.classList.remove("line1Change");
+line2Tag.classList.remove("line2Change");
+line3Tag.classList.remove("line3Change");
+menuContainer.classList.remove("isOpened");
+    chooseText.innerHTML="";
+    chooseText.innerHTML=`<h1 class="headtext"> Wild Rift Links </h1>`;
     //containerTag.style.height = "900px"
 
     const eimageTag = document.getElementsByClassName("eimage");
@@ -388,7 +470,9 @@ const dota2 = ()=>{
     containerTag.innerHTML=`<div class="imagelogo">
     <a href="https://www.feedinco.com/esports/betting-tips/dota-2" ><img src="Screenshot (18).png" class="image eimage" /></a>
 </div>
-
+<div class="imagelogo">
+    <a href="https://tips.gg/dota2/predictions/" ><img src="Screenshot (28).png" class="image eimage" /></a>
+</div>
 
 `;
 
@@ -421,6 +505,10 @@ const csgo = ()=>{
     <a href="https://www.feedinco.com/esports/betting-tips/csgo" ><img src="Screenshot (18).png" class="image eimage" /></a>
 </div>
 
+
+<div class="imagelogo">
+    <a href="https://tips.gg/csgo/predictions/" ><img src="Screenshot (26).png" class="image eimage" /></a>
+</div>
 
 `;
 
@@ -499,7 +587,7 @@ menuContainer.addEventListener("click", () => {
     const menu = () =>{
         chooseMenu.innerHTML=`<div class="menuChange">
     <div class="predition menuText">Preditions</div>
-    <div class="betStats menuText">Bet Stats</div>
+    <div class="betStats menuText">FootBall Bet Stats</div>
     <div class="web menuText">FootBall</div>
     <div class="basketBall menuText">Basketball</div>
     <div class="eSport menuText">Esport</div>
