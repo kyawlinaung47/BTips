@@ -7,10 +7,13 @@ html,body {
     flex-direction: column;
     background-color:rgb(34, 34, 34);
 }
-.body 
+
     
 
-
+.info{
+    display: none;
+    z-index: 1;
+}
 
 
 .head {
