@@ -11,8 +11,8 @@ html,body {
     
 
 .info{
-    display: none;
-    z-index: 1;
+    top: -10px;
+    opacity: 0;
 }
 
 
