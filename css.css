@@ -179,18 +179,16 @@ margin-top: 20px;
 .menuChange{
     display: flex;
     flex-direction: column;
-    margin: 13px;
+    margin: 4px;
     background-color: beige;
-    border-radius: 15px;
+    
 }
-.eSportDiv{
-    border-radius: 15px;
-}
+
 
 .menuText{
     font-size: 20px;
     margin: 6px;
-    margin: 0% 3% 3%;
+    
     cursor: pointer;
     background-color: #515151;
     padding: 3px;
@@ -214,7 +212,7 @@ margin-top: 20px;
     width: 70%;
 }
 .predition{
-    margin-top: 3%;
+    
 }
 .waitText{
     position: fixed;
@@ -239,7 +237,7 @@ margin-top: 20px;
     background-color: beige;
 }
 .csgo{
-    margin-top: 3%;
+    
 }
 
 .text{
