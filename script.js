@@ -100,7 +100,8 @@ const predition = ()=>{
     containerTag.innerHTML="";
     containerTag.innerHTML=`<div class="imagelogo">
                 
-    <img src="p4.jpg" class="imageP">
+    <img src="p1.jpg" class="imageP">
+    <img src="p5.jpg" class="imageP">
     </div>
     
 
