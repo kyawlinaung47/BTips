@@ -64,11 +64,10 @@ html,body {
 }
 
 .imageP {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     border-radius: 10px;
-    
-        
+    margin-left: 25%;
 }
 
 .image {
@@ -130,7 +129,7 @@ html,body {
     .imageP {
         width: 300px;
         height: 300px;
-        
+        margin-left: 10%;
             
     }
     .menuContainer{
